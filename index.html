@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raven Elite Academy</title>
+    <!--Links-->
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Fuente de letra: Poppin-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--Fuente iconos redes sociales-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+        <img class="brand-logo me-2" src="assets/images/logo/logo-academia.png" alt="Imagen Loco" width="70" height="70">
+        <div class="navbar-title">
+            <a class="navbar-brand mb-0" href="index.html">Raven Elite Academy</a>
+            <small class="navbar-subtitle">Academia de alto rendimiento</small>
+        </div>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="views/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="views/contacto.html">Contacto</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+</header>
+
+<main>
+    
+    <div class="container my-4">
+        <!--Imagenes de carousel y card de presentacion-->
+        <div class="row g-4 align-items-stretch">
+            <!--Imagenes carousel-->
+            <div class="col-lg-8 col-sm-12">
+                <div id="carouselExampleInterval" class="carousel slide carousel-home w-100" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-1.webp" class="d-block w-100" alt="Imagen1" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-2.webp" class="d-block w-100" alt="Imagen2" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-3.webp" class="d-block w-100" alt="Imagen3" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-4.webp" class="d-block w-100" alt="Imagen4" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-5.webp" class="d-block w-100" alt="Imagen5" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-6.webp" class="d-block w-100" alt="Imagen6" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-7.webp" class="d-block w-100" alt="Imagen7" width="500" height="500">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/carousel/entrenamiento-8.webp" class="d-block w-100" alt="Imagen8" width="500" height="500">
+                    </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+            <!--Card de presentacion-->
+            <div class="col-lg-4 col-sm-12">
+                <div class="card card-staff " >
+                    <img src="assets/images/card/presentacion/entrenador.jpg" class="card-img-top card-img-fixed" alt="Imagen presentacion" width="300" height="320">
+                <div class="card-body ">
+                    <h4 class="card-title">Bienvenido a la Academia</h4>
+                    <p class="card-text">Mike Vrabel es el encargado principal de Raven Elite Football Academy. Su enfoque se basa en la disciplina, la preparación física y el desarrollo técnico y personal de los jugadores.</p>
+                    <a href="https://www.patriots.com/team/coaches-roster/mike-vrabel" class="btn btn-primary w-100">Descubre su trayectoia</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Introducción y accordion-->
+        <div class="row">
+            <!--Introducción-->
+            <div class="col-lg-8 col-sm-12">
+                <h3 class="title-intr">Acerca de nosotros</h3>
+                <p class="paraf-intr">Raven Elite Football Academy es una academia de alto rendimiento especializada en la formación integral de jugadores de fútbol americano. Nuestro enfoque combina entrenamiento técnico, preparación física y desarrollo táctico, promoviendo valores como la disciplina, el esfuerzo y el trabajo en equipo. La academia está dirigida a deportistas que buscan mejorar su rendimiento en un entorno profesional y estructurado.</p>
+                <p class="paraf-intr">Nuestros jugadores estarán acompañados por un staff cualificado, formado por jugadores, entrenadores y preparadores físicos, comprometidos con el desarrollo deportivo y personal de cada atleta. </p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="accordion mt-2" id="accordionFlushExample">
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Categorias y rangos de edad
+                </button>
+                </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse"  data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>High School: 12-15 años</li>
+                    <li>College: 15-19 años</li>
+                    <li>NFL: 19-30 años</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Horarios
+                </button>
+                </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse"  data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ul>
+                    <li>High School: L-V: 15:00-15:00 S-D: 12:00-13:00</li>
+                    <li>College: L-V: 11:00-13:00 S-D: 16:00-18:00</li>
+                    <li>NFL: L-V: 18:00-21:00 D: 17:00-21:00</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <!--Cards del staff-->
+
+        <div class="row g-4 align-items-stretch">
+            <h3 class="title-intr mt-5">Conoce al staff</h3>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card w-100 h-100 " >
+                    <img src="assets/images/card/staff/coordinador-ofensivo.jpg" class="card-img-top staff-img" alt="Coordinador ofensivo" width="300" height="205">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title">Arthur Smith</h4>
+                    <p class="card-text">Arthur Smith es un entrenador reconocido por su enfoque en el juego terrestre y el desarrollo de running backs de alto nivel. Su trabajo en la academia se centra en esquemas ofensivos equilibrados, aprovechando la potencia, la visión y la toma de decisiones de los corredores..</p>
+                    <a href="https://en.wikipedia.org/wiki/Arthur_Smith_(American_football,_born_1982)" class="btn btn-primary mt-auto w-100">Descubre su trayectoria</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card w-100 h-100" >
+                    <img src="assets/images/card/staff/coordinador-defensivo.webp" class="card-img-top staff-img" alt="Coordinador defensivo" width="300" height="205">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title">Wink Martindale</h4>
+                    <p class="card-text">Wink Martindale es un entrenador reconocido por su enfoque defensivo agresivo y su capacidad para diseñar esquemas de presión efectivos. Su trabajo en la academia se centra en la lectura ofensiva, la colocación táctica y la técnica defensiva</p>
+                    <a href="https://mgoblue.com/sports/football/roster/coaches/wink-martindale/6659" class="btn btn-primary mt-auto w-100">Descubre su trayectoria</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="card w-100 h-100" >
+                    <img src="assets/images/card/staff/coach-mental.jpg" class="card-img-top staff-img" alt="Coach Mental" width="300" height="205">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title">Dr. Michael Gervais</h4>
+                    <p class="card-text">El Dr. Michael Gervais es un especialista en rendimiento mental y psicología deportiva, centrado en ayudar a los jugadores a desarrollar confianza, concentración y control emocional. Su trabajo se enfoca en preparar a los atletas para competir bajo presión, mejorar la toma de decisiones y fortalecer la mentalidad competitiva dentro y fuera del campo.</p>
+                    <a href="https://findingmastery.com/" class="btn btn-primary mt-auto w-100">Descubre su trayectoria</a>
+                </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-sm-12">
+                <div class="card w-100 h-100" >
+                    <img src="assets/images/card/staff/nutricionista-coach.jpg" class="card-img-top staff-img" alt="Nutricionista" width="300" height="205">
+                <div class="card-body d-flex flex-column">
+                    <h4 class="card-title">Dr. John Berardi</h4>
+                    <p class="card-text">El Dr. John Berardi es un especialista en nutrición deportiva, enfocado en optimizar el rendimiento físico a través de la alimentación. En la academia, trabaja en la planificación nutricional, la mejora de la recuperación y la creación de hábitos saludables, ayudando a los jugadores a alcanzar su máximo nivel de forma segura y sostenible.</p>
+                    <a href="https://www.johnberardi.com/" class="btn btn-primary mt-auto w-100">Descubre su trayectoria</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 col-sm-12">
+                <p class="mb-1 fw-bold">Raven Elite Academy</p>
+                <p class="mb-1">Academia de alto rendimiento en fútbol americano</p>
+                <p class="mb-0">© 2026 · Aviso legal</p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="footer-menu">
+                <a href="index.html" class="footer-link active" aria-current="page">Inicio</a>
+                <a href="views/galeria.html" class="footer-link">Galeria</a>
+                <a href="views/contacto.html" class="footer-link">Contacto</a>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <h4 class="footer-title">Siguenos en: </h4>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/davantemasterd/" target="_blank" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://es.linkedin.com/school/master-d/" target="_blank" aria-label="Linkedin">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/DavanteMasterd" target="_blank" aria-label="X-twitter">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/DavanteMasterDoposiciones/" target="_blank" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://es.pinterest.com/masterdformacion/" target="_blank" aria-label="Pinterest">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Paginacion-->
+    
+</footer>
+
+    <!--Scripts-->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

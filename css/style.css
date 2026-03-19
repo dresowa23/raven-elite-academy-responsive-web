@@ -1,0 +1,300 @@
+body{
+    background-color: rgb(93, 13, 167);
+}
+/* INICIO HEADER */
+.brand-logo{
+    border-radius: 50px;
+}
+
+.navbar{
+    background-color: #bd07bd;
+    padding: 0.75rem 1rem;
+}
+
+
+.navbar-brand{
+    font-weight: 550;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    color: white;
+    margin-left: 1rem;
+}
+
+.nav-link.active{
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
+}
+
+.navbar-title{
+    line-height: 1.2;
+}
+
+.navbar-subtitle{
+    display: block;
+    font-size: 0.8rem;
+    color: #000000;
+    font-family: 'Poppins',sans-serif;
+}
+@media (max-width: 991.98px){
+
+  .brand-logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar-brand{
+    font-size: 1rem;
+  }
+
+  .navbar-subtitle{
+    font-size: 0.7rem;
+  }
+
+}
+
+
+/*FIN HEADER*/
+/*INICIO MAIN*/
+
+/* INDEX.HTML */
+.carousel-home .carousel-item{
+    width: 100%;
+    object-fit: cover;
+    
+}
+@media (max-width: 992px){
+    .carousel-home .carousel-item{
+        height: 420px;
+    }
+    .carousel-home .carousel-item img{
+        height: 420px;
+        width: 100%;
+        object-fit:  cover;
+    }
+}
+.card-staff{
+    height: 200px;
+}
+@media (max-width: 576px){
+    .carousel-home .carousel-item,
+    .carousel-home .carousel-item img{
+        height: 270px;
+    }
+    .carousel-home .carousel-item img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.card-staff{
+    height: auto;
+}
+
+.card-img-fixed{
+    height: 280px;
+    object-fit: cover;
+}
+.title-intr{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+}
+.paraf-intr{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+
+}
+.accordion-item{
+    border-radius: 0;
+}
+.accordion-item:first-child{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.accordion-item:last-child{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.accordion-item{
+    overflow: hidden;
+}
+.staff-img{
+    height: 205px;
+    width: 100%;
+    object-fit: cover;
+}
+/*FIN DE INDEX.HTML */
+/*INICIO MAIN GALERIA.HMTL */
+.galeria-item{
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.galeria-img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-item:hover .galeria-img{
+    transform: scale(1.18);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    
+}
+/*FIN GALERIA.HMTL */
+/*INICIO CONTACTO.HMTL */
+
+.title{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+}
+.formulario{
+    background: #ffffff;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.form-item.full{
+    grid-column: 1 / -1;
+}
+.form-item{
+    margin-bottom: .75rem;
+}
+.form-item label{
+    display: block;
+    margin-bottom: .25rem;
+    font-weight: 600;
+}
+.form-item input, .form-item textarea{
+    width: 100%;
+    padding: .75rem 1rem;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    outline: none;
+}
+.form-item textarea{
+    min-height: 160px;
+    resize: vertical;
+}
+.form-item input:focus, .form-item textarea:focus{
+    border-color: #7a2cff;
+    box-shadow: 0 0 0 3px rgba(122,44,255,.15);
+}
+.form-buttons{
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+
+}
+.form-buttons button{
+    padding: .6rem 1.2rem;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0;
+   
+}
+.form-buttons button[type="submit"]{
+    background: #0d6efd;
+    color: #fff;
+}
+.form-buttons button[type="reset"]{
+    background: #0d6efd;
+    color: #fff;
+}
+.form-buttons button:hover{
+  transform: translateY(-1px);
+  transition: .2s;
+}
+@media (max-width: 576px){
+    .form-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+#map{
+    width: 100%;
+    height: 508px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.map-msg{
+    margin-top: .75rem;
+    font-size: .95rem;
+}
+/*FIN CONACTO.HTML */
+/*FIN MAIN*/
+/*FOOTER*/
+.footer{
+    background-color: #320460;
+    color: #ffffff;
+    padding: 1.5rem 0;
+}
+.footer-link{
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+
+}
+
+.footer-link.active{
+  opacity: 1;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.footer-menu{
+    display: flex;
+    
+    justify-content: center;
+    gap: 1.5rem;
+}
+.footer-social{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+.footer-social a{
+    color: #fff;
+    font-size: 20px;
+    transition: opacity 0.2s ease;
+}
+.footer-social a:hover{
+    opacity: 0.7;
+}
+.footer-title{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+}
+@media (max-width: 576px){
+    .footer-title{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+    }
+}
